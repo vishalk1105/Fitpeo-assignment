@@ -17,19 +17,13 @@ const DropDownMenu = ({ MenuText, src, imgClassName }) => {
 
         <ul class="dropdown-menu">
           <li>
-            <a class="dropdown-item" href="/">
-              Action
-            </a>
+            <p class="dropdown-item">Action</p>
           </li>
           <li>
-            <a class="dropdown-item" href="/">
-              Another action
-            </a>
+            <p class="dropdown-item">Another action</p>
           </li>
           <li>
-            <a class="dropdown-item" href="/">
-              Something else here
-            </a>
+            <p class="dropdown-item">Something else here</p>
           </li>
         </ul>
       </div>
