@@ -2,37 +2,157 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+p{
+  font-size: 12px;
+  color: #cbcbcb;
+}
+.has-search .form-control {
+  padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
   pointer-events: none;
+  color: #aaa;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.descr-details p {
+  margin-bottom: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.deatil-card-main-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  column-gap: 20px;
+  margin-top: 30px;
+  row-gap: 20px;
+}
+
+.deatil-card {
+  width: 200px;
+}
+
+.detail-card-img {
+  width: 70px
+}
+/* 
+.overview-main-div {
+  width: 65% 
+}
+
+.customer-main-div {
+  width: 30% ;
+} */
+
+.form-select:focus {
+  border-color: black;
+  outline: 0;
+  box-shadow: none;
+}
+
+/* progress bar CSS starts here*/
+.chart {
+  padding: 15px;
+  border-radius: 12px;
+  background-color: white;
+  ;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  height: 150px;
+}
+
+.chart-bar {
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.chart-bar__inner {
+  height: 100%;
+  width: 25px;
+  border-radius: 4px;
+  background-color: #cbcbcb;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.chart-bar__fill {
+  background-color: #4826b9;
+  width: 100%;
+  transition: all 0.3s ease-out;
+}
+
+.chart-bar__label {
+  font-weight: bold;
+  font-size: 12px;
+  text-align: center;
+}
+
+/* progress bar CSS ends here*/
+
+
+/* Pie chart css start here */
+
+.dougnut-container {
+  width: 150px;
+  height: 150px;
+}
+
+/* Pie charts css ends here */
+
+/* side bar CSS Starts here*/
+.sideBar-nav{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.sideBar-nav ul{
+list-style: none;
+}
+.sideBar-nav ul li{
+  text-align: left;
+}
+
+.profileImage-class{width: 40px;
+  border-radius: 50%;}
+/* Side Bar cs Ends Here */
+@media (max-width: 767px) {
+ .chart-bar__inner {
+  width: 10px;
+ }
+ .chart-bar__label{
+  margin-top: 4px;
+  transform: rotate(-90deg);
+ }
+ .detail-cards{
+display: flex;
+justify-content: center !important;
+ }
+ .deatil-card{
+  width: 90%;
+ }
+ .deatil-card .card-body{
+  justify-content: space-around !important;
+ }
+ .navbar>.container-fluid{
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+ }
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+ @media (min-width: 768px) and (max-width: 1024px) {
+  .deatil-card {
+      width: 200px;
+    }
 }
