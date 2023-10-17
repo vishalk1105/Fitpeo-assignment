@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/vishalk1105/Fitpeo-assignment.git/static/css/main.8738258e.css",
+    "main.js": "/vishalk1105/Fitpeo-assignment.git/static/js/main.7a7d5ba5.js",
+    "index.html": "/vishalk1105/Fitpeo-assignment.git/index.html",
+    "main.8738258e.css.map": "/vishalk1105/Fitpeo-assignment.git/static/css/main.8738258e.css.map",
+    "main.7a7d5ba5.js.map": "/vishalk1105/Fitpeo-assignment.git/static/js/main.7a7d5ba5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8738258e.css",
+    "static/js/main.7a7d5ba5.js"
+  ]
+}
